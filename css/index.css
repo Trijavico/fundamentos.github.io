@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #010113), color-stop(80%, #a3000000)), url("../media/coding-vs-programming-2.jpg.webp");
+  background: linear-gradient(to right, #010113 40%, #a3000000 80%), url("../media/coding-vs-programming-2.jpg.webp");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+video {
+  width: 36rem;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+header span {
+  font-size: 1.2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#ff124f), color-stop(#ff00a0), to(#1216ff));
+  background: linear-gradient(to right, #ff124f, #ff00a0, #1216ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 2.45rem;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  padding-bottom: .93rem;
+}
+
+.hero p {
+  width: 34.25rem;
+  font-weight: 300;
+  font-size: .93rem;
+  text-align: justify;
+  color: rgba(238, 238, 238, 0.87);
+  margin-bottom: 1.2rem;
+}
+
+.hero a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: -webkit-gradient(linear, left top, right top, from(#ff5e27), to(#ff124f));
+  background: linear-gradient(to right, #ff5e27, #ff124f);
+  border-radius: .13rem;
+  padding: .63rem 1.2rem;
+  text-decoration: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.hero a ion-icon {
+  padding-left: .28rem;
+}
+
+.hero a:hover {
+  -webkit-transform: translateY(-0.23rem);
+          transform: translateY(-0.23rem);
+}
+
+.examples {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 2rem;
+}
+/*# sourceMappingURL=index.css.map */
